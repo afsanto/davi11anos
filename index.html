@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi- 11 anos</title>
+</head>
+<body>
+
+    
+
+    <button class="defesas" type="submit"><a class="defesas1" href="./DAVI JUN MELHORES MOMENTOS.mp4" target="_blank">Veja minhas defesas</a></button>
+
+        
+    <audio class="music" src="./NEFFEX - SOMETHING YOU COULD NEVER OWN 🎸 [Copyright Free].mp3" controls loop></audio>
+    <audio class="music1" src="./Def Leppard - Hysteria (Long Version).mp3" controls loop></audio>
+
+    <div class="name">
+        
+        <h1>
+            <span><a class="ddedavi" href="./js-planet-defense-game/dist/index.html" target="_blank">D</a></span>
+            <span><a class="vogal"href="./flipcard-memory-game/dist/index.html" target="_blank">A</a></span>
+            <span><a class="vdedavi" href="./pure-css-tic-tac-toe/dist/index.html" target="_blank">V</a></span>
+            <span><a class="vogal" href="./bullseye-game/dist/index.html" target="_blank">I</a></span>
+        </h1>
+    </div>
+
+   <a href="pokemon-1/index.html" target="_blank" class="pokeball-link"><img class="pokeball" src="./imagens/pokebola.png"></a>
+
+    <div class="container">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide p1">
+                <img src="./Fotos/imagens/1tr.jpg" alt="imagem landscape">
+            </div>
+
+            <div class="slide">
+                <img src="./Fotos/imagens/2tr.jpg" alt="imagem landscape">
+            </div>
+
+            <div class="slide">
+                <img src="./imagens/3tr.jpg" alt="imagem landscape">
+            </div>
+
+            <div class="slide">
+                <img src="./imagens/4tr.jpg" alt="imagem landscape">
+            </div>
+
+            <div class="slide">
+                <img src="./imagens/5tr.jpg" alt="imagem landscape">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://landbot.site/v3/H-1303325-GS6E3IHORQKJOR5C/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+
+<h5 class="copyright">&copy Desenvolvido por Adilson Santos (pai do Davi)</h5>
+</body>
+</html>
